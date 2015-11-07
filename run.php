@@ -1,4 +1,5 @@
 <?php
+ini_set("v8js.flags", "--harmony");
 require './react-php-v8js/ReactJS.php';
 
 $react = file_get_contents('https://fb.me/react-0.13.0.min.js');
